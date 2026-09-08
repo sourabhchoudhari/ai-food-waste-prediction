@@ -1,97 +1,56 @@
-# AI-Based Food Waste Prediction and Reduction Assistant
+Rewrite my README.md for my project "AI-Based Food Waste Prediction and Reduction Assistant".
 
-An AI-powered prototype for sustainable college canteen management that
-predicts meal demand and helps reduce unnecessary food preparation.
+Create a professional, concise GitHub README suitable for a college internship project and evaluation.
 
-## Project Overview
+Include these sections in this order:
 
-College canteens often prepare food based on estimated demand. When actual
-demand is lower than expected, excess food can remain unused and contribute
-to food waste.
+1. Project Title
+2. One-line Project Description
+3. Problem Statement
+4. Proposed Solution
+5. SDG Alignment
+   - SDG 12: Responsible Consumption and Production
+6. Key Features
+7. AI / Machine Learning
+   - Random Forest Regression
+   - Input features: expected students, day of week, menu type
+   - Target: meals consumed
+   - MAE: 8.58 meals
+   - RMSE: 10.81 meals
+   - R²: 0.9624
+   - Baseline MAE: 45.96 meals
+   - Clearly state that these metrics are based on simulated prototype data and are not real-world operational performance.
+8. Technology Stack
+9. Project Workflow using a simple text diagram
+10. IBM Bob Integration
+    - Code troubleshooting
+    - Code review
+    - Bug and structural issue identification
+    - Code improvement
+    - ML training workflow review
+11. Project Structure
+12. How to Run
+13. Prototype Screenshots section with placeholders for:
+    - Dashboard
+    - Prediction Result
+    - Sustainability Impact Simulator
+    - Food Waste Trend
+    - IBM Bob Code Review
+14. Responsible AI and Limitations
+    - Transparency
+    - Privacy
+    - Fairness
+    - Ethics
+    - Simulated-data limitation
+15. Future Scope
+16. Project Status
 
-This project uses machine learning to estimate meal demand based on:
+Keep the README around 600-800 words.
+Use clear Markdown headings, bullet points, code blocks, and professional wording.
+Do not exaggerate project results or claim that food waste was actually reduced in the real world.
+Do not add technologies, features, metrics, datasets, APIs, or results that are not present in the project.
+Preserve the current project functionality and make the README accurately describe the existing files:
+app.py, train_model.py, generate_data.py, requirements.txt, data/, model/, and screenshots/.
 
-- Expected number of students
-- Day of the week
-- Menu type
-
-The system then provides a recommended preparation quantity and an
-illustrative sustainability impact estimate.
-
-## Sustainable Development Goal
-
-### SDG 12 - Responsible Consumption and Production
-
-The project supports responsible consumption by helping canteen staff
-make more data-informed food preparation decisions.
-
-## Key Features
-
-- AI-based meal demand prediction
-- Recommended meal preparation quantity
-- Preparation buffer calculation
-- Sustainability impact simulator
-- Historical canteen data dashboard
-- Food-waste trend visualization
-- Responsible AI considerations
-- IBM Bob-assisted code review and development
-
-## AI / Machine Learning
-
-### Model
-
-Random Forest Regression
-
-### Input Features
-
-- Day of week
-- Menu type
-- Expected students
-
-### Target
-
-- Meals consumed
-
-### Model Evaluation
-
-The prototype currently uses simulated data.
-
-- MAE: 8.58 meals
-- RMSE: 10.81 meals
-- R²: 0.9624
-- Mean Bias: +0.76 meals
-- Baseline MAE: 45.96 meals
-
-> **Important:** These results are based on simulated prototype data.
-> They should not be interpreted as real-world operational performance.
-
-## Technology Stack
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Random Forest Regression
-- Streamlit
-- Matplotlib
-- Joblib
-- IBM Bob
-
-## System Workflow
-
-```text
-Historical / Simulated Data
-          ↓
-Data Preparation
-          ↓
-Feature Selection
-          ↓
-Random Forest Model
-          ↓
-Meal Demand Prediction
-          ↓
-Preparation Recommendation
-          ↓
-Impact Simulation
-          ↓
-Sustainability Insights
+Do not modify any Python code.
+Only update README.md.
