@@ -1,0 +1,32 @@
+{
+  "trained_at": "2026-08-18T19:11:45.860111",
+  "scikit_learn_version": "1.9.0",
+  "data_source": "data/canteen_data.csv",
+  "note": "Trained on SIMULATED data. Metrics are prototype-only and do not represent real-world canteen performance.",
+  "split_type": "chronological",
+  "train_rows": 240,
+  "test_rows": 60,
+  "train_date_range": "2025-01-01 to 2025-08-28",
+  "test_date_range": "2025-08-29 to 2025-10-27",
+  "features": [
+    "day_of_week",
+    "menu_type",
+    "students_expected"
+  ],
+  "categorical_features": [
+    "day_of_week",
+    "menu_type"
+  ],
+  "numeric_features": [
+    "students_expected"
+  ],
+  "target": "meals_consumed",
+  "n_estimators": 200,
+  "metrics": {
+    "mae": 8.58,
+    "rmse": 10.81,
+    "r2": 0.9624,
+    "mean_bias": 0.76,
+    "baseline_mae": 45.96
+  }
+}
